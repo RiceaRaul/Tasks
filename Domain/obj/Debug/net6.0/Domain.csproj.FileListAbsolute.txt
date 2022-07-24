@@ -1,0 +1,28 @@
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Programare\LOCAL\Tasks\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Programare\LOCAL\Tasks\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Programare\LOCAL\Tasks\Domain\bin\Debug\net6.0\Domain.dll
+D:\Programare\LOCAL\Tasks\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.dll
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\Programare\LOCAL\Tasks\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Programare\LOCAL\Tasks Backend\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Programare\LOCAL\Tasks Backend\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Programare\LOCAL\Tasks Backend\Domain\bin\Debug\net6.0\Domain.dll
+D:\Programare\LOCAL\Tasks Backend\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.dll
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\Programare\LOCAL\Tasks Backend\Domain\obj\Debug\net6.0\ref\Domain.dll

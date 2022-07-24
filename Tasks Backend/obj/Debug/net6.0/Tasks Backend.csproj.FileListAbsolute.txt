@@ -1,0 +1,66 @@
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\appsettings.Development.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\appsettings.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Tasks Backend.exe
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Tasks Backend.deps.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Tasks Backend.runtimeconfig.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Tasks Backend.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Tasks Backend.pdb
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.csproj.AssemblyReference.cache
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.AssemblyInfoInputs.cache
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.AssemblyInfo.cs
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.csproj.CoreCompileInputs.cache
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\scopedcss\bundle\Tasks Backend.styles.css
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.csproj.CopyComplete
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\refint\Tasks Backend.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.pdb
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\Tasks Backend.genruntimeconfig.cache
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\obj\Debug\net6.0\ref\Tasks Backend.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\MySql.Data.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\ZstdNet.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\MySqlConnector.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Domain.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Repositories.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Domain.pdb
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Repositories.pdb
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programare\LOCAL\Tasks Backend\Tasks Backend\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
