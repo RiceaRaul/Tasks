@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Repositories.Interfaces;
 using Tasks_Backend.Models.Requests;
+
 using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Tasks_Backend.Controllers
@@ -71,7 +73,7 @@ namespace Tasks_Backend.Controllers
             
             return Task.FromResult<ActionResult<List<TaskModel>>>(Ok(new List<TaskModel>()));
         }
-
+        
         [HttpDelete("delete/{id}")]
         public async Task<ActionResult> DeleteProjectById(int id)
         {

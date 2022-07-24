@@ -16,6 +16,10 @@ namespace Repositories
 
         private ITaskRepository _task;
         
+        private ITeamRepository _team;
+        
+        private IUserTeamRepository _userteam;
+        
         public RepositoryWrapper(AppDbContext dbContext)
         {
             _dbContext = dbContext;
@@ -51,6 +55,28 @@ namespace Repositories
                     _task = new TaskRepository(_dbContext);
 
                 return _task;
+            }
+        }
+        
+        public ITeamRepository Team
+        {
+            get
+            {
+                if (_team == null)
+                    _team = new TeamRepository(_dbContext);
+
+                return _team;
+            }
+        }
+        
+        public IUserTeamRepository UserTeam
+        {
+            get
+            {
+                if (_userteam == null)
+                    _userteam = new UserTeamRepository(_dbContext);
+
+                return _userteam;
             }
         }
 

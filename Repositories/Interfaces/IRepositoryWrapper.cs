@@ -9,6 +9,8 @@ namespace Repositories.Interfaces
         IProjectRepository Project { get; }
         
         ITaskRepository Task { get; }
+        ITeamRepository Team { get; }
+        IUserTeamRepository UserTeam { get; }
         Task Save();
     }
 }

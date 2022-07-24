@@ -12,6 +12,8 @@ public class AppDbContext : DbContext
     public virtual DbSet<User> Users { get; set; }
     public virtual DbSet<Project> Projects { get; set; }
     public virtual DbSet<TaskModel> Tasks { get; set; }
+    public virtual DbSet<Team> Teams { get; set; }
+    public virtual DbSet<UserTeam> UserTeams { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
@@ -33,6 +35,21 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Project>()
             .HasMany<TaskModel>(g => g.Tasks)
             .WithOne(x => x.TaskProject);
+
+        modelBuilder.Entity<User>()
+            .HasMany(x => x.Teams)
+            .WithOne(x => x.User);
+        
+        modelBuilder.Entity<UserTeam>()
+            .HasOne(x => x.UserTeams);
+
+        modelBuilder.Entity<Team>()
+            .HasMany(x => x.TeamMembers)
+            .WithOne(x => x.UserTeams);
+        
+        modelBuilder.Entity<Team>()
+            .HasMany(x => x.TeamProjects)
+            .WithOne(x=>x.Team);
 
         base.OnModelCreating(modelBuilder);            
     }
