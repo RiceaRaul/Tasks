@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Repositories.Interfaces;
 using Tasks_Backend.Attributes;
 using Tasks_Backend.Models.Requests;
-using Tasks_Backend.Attributes;
 namespace Tasks_Backend.Controllers;
 
 [Route("api/[controller]")]
@@ -18,9 +17,9 @@ public class TeamController : AbstractController
       _repository = repository;
    }
 
-   #region PostRegion
+   #region Post
 
-   [Attributes.Authorize]
+   [Authorize]
    [HttpPost("createteam")]
    public async Task<ActionResult<Team>> CreateTeam(TeamRequest request)
    {
@@ -69,13 +68,33 @@ public class TeamController : AbstractController
    }
 
    #endregion
-   
+
+   #region Get
    
    [HttpGet("getall")]
    public async Task<ActionResult<List<Team>>> GetAll()
    {
       return Ok(_repository.Team.FindAll().ToList());
    }
+   
+   #endregion
+
+   #region Delete
+
+   [Authorize]
+   [HttpDelete("{id}")]
+   public async Task<ActionResult> DeleteTeam(int id)
+   {
+      var User = GetUserFromContext();
+      var Team = _repository.Team.FindById(id);
+      if (Team == null) return BadRequest(new {message = "Team not found"});
+      if(Team.TeamOwnerId != User.Id) return BadRequest(new {message = "You are not a leader"});
+      _repository.Team.Delete(Team);
+      await _repository.Save();
+      return Ok(new {message = "Success"});
+   }
+   
+   #endregion
    
    
 }

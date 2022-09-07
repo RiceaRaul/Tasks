@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Domain.Models;
-
+using System.Configuration;
 namespace Domain;
 
 public class AppDbContext : DbContext
@@ -17,12 +17,7 @@ public class AppDbContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        
-        if (!options.IsConfigured) { 
-            var connectionString = "server=localhost;user=root;database=tasks;password=Relisys123;port=3306";
-            options.UseMySql(connectionString,
-                    ServerVersion.AutoDetect(connectionString));
-        }
+      
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -11,12 +11,12 @@ namespace Tasks_Backend.Controllers;
 public class TasksController : AbstractController
 {
     private readonly IRepositoryWrapper _repository;
-    
     public TasksController(IRepositoryWrapper repository) 
     {
         _repository = repository;      
     }
 
+    #region Post
     [HttpPost("createTask")]
     public async Task<ActionResult<TaskModel>> CreateTask(TaskRequest request)
     {
@@ -33,7 +33,11 @@ public class TasksController : AbstractController
         await _repository.Save();
         return Ok(newTask);
     }
+    
 
+    #endregion
+
+    #region Get
     [HttpGet("{id}/{includeproject}")]
     public async Task<ActionResult<TaskModel>> GetTaskById(int id,bool includeproject = false)
     {
@@ -57,6 +61,11 @@ public class TasksController : AbstractController
         if (Task != null)   return Ok(Task);
         return BadRequest(new {message = "Task not found"});
     }
+    #endregion
+
+
+    #region Put
+    
     [Authorize]
     [HttpPut("updatestatus/{id}/{status}")]
     public async Task<ActionResult>  UpdateTaskStatus(int id, int status = 0)
@@ -80,7 +89,11 @@ public class TasksController : AbstractController
         await _repository.Save();
         return Ok(new {message = "Success"});
     }
+    
+    #endregion
 
+    #region Delete
+    
     [Authorize]
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteTask(int id)
@@ -101,4 +114,6 @@ public class TasksController : AbstractController
 
         return BadRequest(new {message = "Task not found"});
     }
+    #endregion
+    
 }

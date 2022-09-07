@@ -25,7 +25,7 @@ public class AuthentificationController : ControllerBase
         _security = security;
         _jwtservice = jwtservice;
     }
-  
+    
     [HttpPost("login")]
     public async Task<ActionResult<AuthentificationResponse>> LoginAccount(AuthentificationRequest request)
     {

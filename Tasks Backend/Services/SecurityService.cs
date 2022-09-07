@@ -36,7 +36,7 @@ public class SecurityService : ISecurityService
         {
             return false;
         }
-        return false;
+     
     }
 
     public string GenerateSecret()

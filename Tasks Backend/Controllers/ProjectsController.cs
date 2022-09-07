@@ -20,26 +20,36 @@ namespace Tasks_Backend.Controllers
             _repository = repository;      
         }
 
+        #region Post
         [HttpPost("createProject")]
-        public Task<ActionResult<Project>> CreateProject(ProjectRequest request)
+        public async Task<ActionResult<Project>> CreateProject(ProjectRequest request)
         {
+           
             var checkProject = _repository.Project.FindByCondition(x => x.ProjectName == request.ProjectName && x.OwnerId == request.ProjectOwner);
             if(checkProject.Count() != 0)
             {
-                return Task.FromResult<ActionResult<Project>>(BadRequest(new { message = "Project name exists" }));
+                return BadRequest(new { message = "Project name exists" });
             }
-
+            if (request.TeamId != 0)
+            {   
+                var checkTeam = _repository.Team.FindById(request.TeamId);
+                if (checkTeam == null) return BadRequest(new {message = "Team not found"});
+            }
+            
             var newProject = new Project
             {
                 OwnerId = request.ProjectOwner,
-                ProjectName = request.ProjectName
+                ProjectName = request.ProjectName,
+                TeamId = request.TeamId
             };
             _repository.Project.Create(newProject);
-            _repository.Save();
+            await _repository.Save();
+            return Ok(newProject);
+        } 
+            
+        #endregion
 
-            return Task.FromResult<ActionResult<Project>>(Ok(newProject));
-        }
-
+        #region Get
         [HttpGet("{id}/{includeowner?}/{includetasks?}")]
         public Task<ActionResult<Project>> GetProjectById(int id,bool includeowner=false,bool includetasks=false)
         {
@@ -62,8 +72,8 @@ namespace Tasks_Backend.Controllers
             return Task.FromResult<ActionResult<Project>>(Ok(_repository.Project.FindById(id)));
 
         }
-        
 
+      
         [HttpGet("getTasks/{id}")]
         public Task<ActionResult<List<TaskModel>>>GetTasks(int id)
         {
@@ -74,6 +84,10 @@ namespace Tasks_Backend.Controllers
             return Task.FromResult<ActionResult<List<TaskModel>>>(Ok(new List<TaskModel>()));
         }
         
+        #endregion
+       
+        #region Delete
+        
         [HttpDelete("delete/{id}")]
         public async Task<ActionResult> DeleteProjectById(int id)
         {
@@ -83,5 +97,9 @@ namespace Tasks_Backend.Controllers
             await _repository.Save();
             return Ok();
         }
+        
+
+        #endregion
+        
     }
 }
